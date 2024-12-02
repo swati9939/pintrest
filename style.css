@@ -1,0 +1,289 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: antiquewhite;
+  text-transform: capitalize;
+}
+
+nav {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+#li1 {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  font-weight: 700;
+  color: #c0b6b6;
+}
+#logo {
+  height: 35px;
+  width: 35px;
+}
+.span {
+  color: rgb(197, 90, 113);
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(17, 16, 16);
+  padding: 5px 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+ul li a:hover {
+  background-color: #555;
+  color: #fff;
+  border-radius: 5px;
+}
+.login {
+  padding: 16px;
+  border-radius: 30px;
+  background-color: rgb(197, 90, 113);
+  width: 90px;
+  border: none;
+  font-size: 18px;
+}
+#sign {
+  background-color: rgba(128, 128, 128, 0.26);
+}
+.page1 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 0, 0.301);
+  display: flex;
+}
+.p1left {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.p1right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#img1 {
+  width: 300px;
+  z-index: 1;
+  top: 20%;
+  right: 50%;
+  bottom: 50%;
+  left: 38%;
+}
+#img2 {
+  width: 150px;
+  z-index: 0;
+  right: 14%;
+  bottom: 12%;
+}
+#img3 {
+  width: 170px;
+  z-index: 0;
+  top: 28%;
+  left: 20%;
+}
+#img4 {
+  width: 190px;
+  z-index: 0;
+  right: 14%;
+  top: 10%;
+}
+.imgz {
+  position: absolute;
+}
+.btn {
+  width: 320px;
+  z-index: 2;
+  top: 35%;
+  left: 33%;
+  background-color: #fff;
+  font-size: 24px;
+  padding: 34px;
+  border-radius: 60px;
+  color: red;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+.p1right h1 {
+  font-size: 60px;
+  color: rgb(197, 90, 113);
+  font-weight: 800;
+}
+.p1right p {
+  font-size: 26px;
+  color: rgb(197, 90, 113);
+}
+.page2 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(161, 225, 241, 0.5);
+  display: flex;
+}
+.p2right {
+  width: 50%;
+  position: relative;
+}
+.p2d1 {
+  height: 380px;
+  width: 360px;
+  background-size: cover;
+
+  position: relative;
+  z-index: 1;
+  margin-top: 80px;
+  background-image: url("assets/img2.png");
+  background-repeat: no-repeat;
+}
+#prp1 {
+  color: rgba(14, 101, 122, 0.705);
+}
+#d1i1 {
+  width: 80px;
+  position: absolute;
+  z-index: 1;
+  bottom: 10%;
+  left: 5%;
+}
+#d1i2 {
+  width: 80px;
+  position: absolute;
+  z-index: 1;
+  bottom: 10%;
+  left: 30%;
+}
+#d1i3 {
+  width: 80px;
+  position: absolute;
+  z-index: 1;
+  bottom: 10%;
+  right: 22%;
+}
+#d1h1 {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  font-size: 44px;
+  left: 5%;
+  top: 25%;
+  line-height: 1.3;
+}
+.p2d2 img {
+  width: 230px;
+  position: absolute;
+  right: 18%;
+  top: 8%;
+}
+#p2h2 {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  z-index: 1;
+  right: 24%;
+  top: 25%;
+}
+.p2d3 img {
+  width: 150px;
+  position: absolute;
+  right: 30%;
+  top: 44%;
+}
+#p2h3 {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  right: 34%;
+  top: 55%;
+}
+.p2d4 img {
+  width: 230px;
+  position: absolute;
+  right: 26%;
+  bottom: 0%;
+}
+#p2d4 {
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  z-index: 1;
+  right: 34%;
+  bottom: 5%;
+}
+.p2d5 img {
+  width: 230px;
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+}
+#p2d5 {
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  z-index: 1;
+  left: 12%;
+  bottom: 10%;
+}
+.page3{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 192, 203, 0.384);
+  display: flex;
+}
+.p3left{
+  width: 50%;
+ position: relative;
+ background-image: url('assets/img7.png');
+ background-size: cover;
+ height: 100%;
+
+}
+#p3i1{
+width: 220px;
+position: absolute;
+z-index: 1;
+left: 8%;
+bottom: 22%;
+border-radius: 8%;
+}
+#p3i2{
+position: absolute;
+z-index: 2;
+bottom: 16%;
+left: 3%;
+width: 12%;
+}
+#p3h1{
+  position: absolute;
+  z-index: 2;
+  left: 16%;
+  bottom: 15%;
+  color: white;
+  font-size: 16px;
+}
+#p3h1 span{
+  font-weight: 400;
+}
